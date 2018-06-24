@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akki.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ENGINEERS WORLD"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".cse" />
+        <activity android:name=".ece" />
+        <activity android:name=".eee" />
+        <activity android:name=".mech" />
+        <activity android:name=".civil" />
+        <activity android:name=".basics" />
+        <activity android:name=".firstyear" />
+        <activity android:name=".secondyearcse" />
+        <activity android:name=".thirdyearcse" />
+        <activity android:name=".fourthyearcse" />
+        <activity android:name=".secondyearece" />
+        <activity android:name=".thirdyearece" />
+        <activity android:name=".fourthyearece" />
+        <activity android:name=".secondyeareee" />
+        <activity android:name=".thirdyeareee" />
+        <activity android:name=".fourthyeareee" />
+        <activity android:name=".secondyearmech" />
+        <activity android:name=".thirdyearmech" />
+        <activity android:name=".fourthyearmech" />
+        <activity android:name=".secondyearcivil" />
+        <activity android:name=".thirdyearcivil" />
+        <activity android:name=".fourthyearcivil" />
+        <activity android:name=".html" />
+        <activity android:name=".iot" />
+        <activity android:name=".syllubus" />
+        <activity android:name=".physics" />
+        <activity android:name=".chemistry" />
+        <activity android:name=".BEE" />
+        <activity android:name=".computerprogramming" />
+        <activity android:name=".syllabuscse2" />
+        <activity android:name=".syllubusece3" />
+        <activity android:name=".syllabuscse4" />
+        <activity android:name=".syllabusece4" />
+        <activity android:name=".syllabusece2" />
+        <activity android:name=".syllabuscivil2" />
+        <activity android:name=".syllabuscivil3" />
+        <activity android:name=".syllabusmech2" />
+        <activity android:name=".syllabusmech3" />
+        <activity android:name=".syllabusmech4" />
+        <activity android:name=".syllabuseee4" />
+        <activity android:name=".syllabuscivil4" />
+        <activity android:name=".syllabuscse3" />
+        <activity android:name=".syllabuseee3" />
+        <activity android:name=".syllabuseee2" />
+        <activity android:name=".os" />
+        <activity android:name=".java" />
+        <activity android:name=".dcc" />
+        <activity android:name=".cd" />
+        <activity android:name=".ssp" />
+        <activity android:name=".ac" />
+        <activity android:name=".dc" />
+
+    </application>
+
+</manifest>

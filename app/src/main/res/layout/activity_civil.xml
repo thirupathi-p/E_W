@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".civil">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:layout_gravity="center"
+
+        android:orientation="vertical"
+        tools:context=".civil">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@drawable/civilbg"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="First Year"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="50dp"
+
+            android:id="@+id/b1"
+            android:onClick="firstyear"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Second Year"
+            android:layout_gravity="center"
+
+            android:id="@+id/b2"
+            android:onClick="secondyearcivil"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Third Year"
+
+            android:layout_gravity="center"
+            android:id="@+id/b3"
+            android:onClick="thirdyearcivil"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Fourth Year"
+            android:layout_gravity="center"
+            android:onClick="fourthyearcivil"
+            android:id="@+id/b4"
+            />
+
+    </LinearLayout>
+</LinearLayout>
