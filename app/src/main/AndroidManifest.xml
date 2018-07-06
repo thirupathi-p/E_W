@@ -70,8 +70,8 @@
         <activity android:name=".dcc" />
         <activity android:name=".cd" />
         <activity android:name=".ssp" />
-        <activity android:name=".ac" />
         <activity android:name=".dc" />
+        <activity android:name=".ac" />
 
     </application>
 
